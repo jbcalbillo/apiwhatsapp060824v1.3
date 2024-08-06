@@ -1,0 +1,23 @@
+{
+  "name": "apiwhatsapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/aiplatform": "^3.25.0",
+    "@google-cloud/apikeys": "^1.3.0",
+    "@google-cloud/vertexai": "^1.4.0",
+    "express": "^4.19.2",
+    "openai": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
